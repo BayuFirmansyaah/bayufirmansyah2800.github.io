@@ -200,5 +200,17 @@
 	background-size: 70% 80%;
 	background-repeat: no-repeat;
 	background-position: center;
+}
 
+.hire{
+	margin-top: 60px;
+}
+
+.wrap-hire{
+	padding: 30px 0px;
+}
+
+.box-hire{
+	margin-top: 0px;
+	height: 350px;
 }
