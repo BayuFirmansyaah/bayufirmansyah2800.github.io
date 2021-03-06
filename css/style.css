@@ -244,12 +244,12 @@
     }
 
     .text-detail {
-        margin-top: 60px;
+        margin-top: 30px;
   	}
 
     .show {
         height: 500px;
-        margin-top: 0px;
+        margin-top: -15px;
         padding: 15px 0px;
     }
 
@@ -319,7 +319,7 @@
 
     .skill {
         height: 100%;
-        margin-top: 90px;
+        margin-top: 60px;
     }
 
     .text-skill {
