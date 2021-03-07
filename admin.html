@@ -21,25 +21,79 @@
 </head>
 
 <body>
-    
     <!-- ===== sidebar ===== -->
     <div class="sidebar">
         <a href="index.html" class="icon"><i class="fas fa-anchor"></i></a>
         <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" href="">Active</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="">Data Karya</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Halaman</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
         </ul>
     </div>
     <!-- ===== akhir sidebar ===== -->
-
-
+    <!-- ===== content ===== -->
+    <div class="container-fluid content">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="box-visit">
+                    <p class="text-box text-muted">Kunjungan Halaman</p>
+                    <p class="count-box">1.000.000.000</p>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="box-visit">
+                    <p class="text-box text-muted">Penayangan Karya</p>
+                    <p class="count-box">1.000.000.000</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg">
+                <a href="" class="btn btn-success float-right">tambahkan karya</a>
+            </div>
+            <div class="col-lg-12 mt-3">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">no</th>
+                            <th scope="col">judul</th>
+                            <th scope="col">type</th>
+                            <th scope="col">link</th>
+                            <th scope="col">view</th>
+                            <th scope="col" colspan="2">action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Magang Siswa</td>
+                            <td>Webiste</td>
+                            <td><a target="blank" href="https://github.com/bayufirmansyah2800">https://github.com/bayufirmansyah2800</a></td>
+                            <td class="text-center">100k</td>
+                            <td class="text-center"><a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a></td>
+                            <td class="text-center"><a href="" class="btn btn-primary"><i class="fas fa-edit"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>my Portfolio</td>
+                            <td>Design</td>
+                            <td><a target="blank" href="https://github.com/bayufirmansyah2800">https://github.com/bayufirmansyah2800</a></td>
+                            <td class="text-center">100k</td>
+                            <td class="text-center"><a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a></td>
+                            <td class="text-center"><a href="" class="btn btn-primary"><i class="fas fa-edit"></i></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- ===== akhir content ===== -->
     <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="js/jquery.js"></script>
